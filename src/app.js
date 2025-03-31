@@ -4,7 +4,7 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 function excuseGen() {
-  var guilty = ["The pope ", "The president ", "Alf ", "Homer Simpson ", "Bob Marley "]
+  var guilty = ["The Pope ", "The President ", "Alf ", "Homer Simpson ", "Bob Marley "]
   var action = ["broke ", "stole ", "threw away ", "destroyed ", "corrupted "]
   var victim = ["my phone ", "the sport center ", "a brand new limousine ", "a piece of cake ", "your pants "]
   var when = ["this morning ", "at noon ", "just about now ", "on 1946 ", "while your wedding "]
