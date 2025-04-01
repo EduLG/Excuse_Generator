@@ -3,6 +3,39 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
+function excuseGen(component) {
+
+  var excusePart = component[Math.floor(Math.random() * component.length)];
+
+  return excusePart;
+}
+
+var guilty = ["The Pope ", "The President ", "Alf ", "Homer Simpson ", "Bob Marley "]
+var action = ["broke ", "stole ", "threw away ", "destroyed ", "corrupted "]
+var victim = ["my phone ", "the sport center ", "a brand new limousine ", "a piece of cake ", "your pants "]
+var when = ["this morning ", "at noon ", "just about now ", "on 1946 ", "while your wedding "]
+var how = ["while soaked in alcohol.", "being completely out of control.", "after drinking 35 coffees and an ice cream.", "being asleep (dont ask me how it happened).", "trying to do something funny."]
+
+
+window.onload = function() {
+  document.getElementById("excuse").textContent = excuseGen(guilty) + excuseGen(action) + excuseGen(victim) + excuseGen(when) + excuseGen(how);
+};
+
+
+
+
+
+
+
+
+/*
+
+
+import "bootstrap";
+import "./style.css";
+import "./assets/img/rigo-baby.jpg";
+import "./assets/img/4geeks.ico";
+
 function excuseGen() {
   var guilty = ["The Pope ", "The President ", "Alf ", "Homer Simpson ", "Bob Marley "]
   var action = ["broke ", "stole ", "threw away ", "destroyed ", "corrupted "]
@@ -23,3 +56,5 @@ function excuseGen() {
 window.onload = function() {
   document.getElementById("excuse").textContent = excuseGen();
 };
+
+*/
